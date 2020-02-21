@@ -1,0 +1,1 @@
+gcc -Wall -Werror -Wextra -c ft_putchar_fd.c ft_
