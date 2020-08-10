@@ -17,12 +17,12 @@
 int main(int argc, char **argv)
 {
     int                 fd;
-    t_coord_dot       *raw_dots;
+    t_coord_dot       *raw_dots_list;
 
     if (argc == 2)
     {
         fd = open(argv[1], O_RDONLY);
-        if(read_from_file(&raw_dots, fd) == -1)
+        if(read_from_file(&raw_dots_list, fd) == -1)
             return (-2);
 
 
