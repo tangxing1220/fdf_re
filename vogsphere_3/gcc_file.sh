@@ -1,0 +1,2 @@
+make -C libft/ fclean && make -C libft/
+gcc  -g main.c  image_controls.c point_pixel.c color.c draw_image.c control_init.c read_file.c -L ./libft -lft -I ./libft/includes -I /usr/local/include -L /usr/local/lib -lmlx -framework OpenGL -framework AppKit
